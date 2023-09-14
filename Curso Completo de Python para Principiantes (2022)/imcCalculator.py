@@ -5,10 +5,14 @@
 # Entre 26 y 30: Sobrepeso
 # > 30: Obesidad
 
+contador = 0
+
+# Función para calcular el índice de masa corporal
 def calcularIMC(peso, alturaEnMetros):
     imc = peso / (alturaEnMetros * alturaEnMetros)
     return imc
 
+# Función que pide al usuario los datos para realizar el calculo
 def pedirIMC():
     peso = float(input('Ingrese su peso en kg: '))
     alturaEnCM = int(input('Ingrese su altura en cm: '))
@@ -26,4 +30,10 @@ def pedirIMC():
     if imc >= 30:
         print('Estado de obesidad')
 
-pedirIMC()
+# Solicitamos la cantidad de personas a procesar
+cantPersonas = int(input('Cuántas personas desea procesar: '))
+
+# Definimos la condición mientras el contador sea menor al indicado
+while contador < cantPersonas:
+    pedirIMC()
+    contador += 1
