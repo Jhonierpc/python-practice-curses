@@ -5,7 +5,7 @@
 # Entre 26 y 30: Sobrepeso
 # > 30: Obesidad
 
-contador = 0
+contador = 1
 
 # Función para calcular el índice de masa corporal
 def calcularIMC(peso, alturaEnMetros):
@@ -34,6 +34,6 @@ def pedirIMC():
 cantPersonas = int(input('Cuántas personas desea procesar: '))
 
 # Definimos la condición mientras el contador sea menor al indicado
-while contador < cantPersonas:
+while contador <= cantPersonas:
     pedirIMC()
     contador += 1
