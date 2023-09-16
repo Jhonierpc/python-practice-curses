@@ -19,7 +19,6 @@ persona["empresa"] = "SoftwareOne"
 # Verificar si una clave está en el diccionario
 print("ciudad" in persona)  # Salida: True
 print("genero" in persona)  # Salida: False
-
 # Obtener una lista de todas las claves
 claves = persona.keys()
 print(claves)  # Salida: dict_keys(['nombre', 'edad', 'ciudad', 'profesion'])
