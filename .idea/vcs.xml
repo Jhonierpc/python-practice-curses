@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
+=======
+    <mapping directory="$PROJECT_DIR$/Curso Completo de Python para Principiantes (2022)/src/inflect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/inflect" vcs="Git" />
+>>>>>>> curso1
   </component>
 </project>
